@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+
+// import Link from 'react';
+
+import Counter1 from "./Counter1"
+import Counter2 from "./Counter2"
+
+// import AclassComponent from "./AclassComponent"
+// import AfunctionalComponent from "./AfunctionalComponent"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <h3>A higher-order component transforms a component into another component.</h3>
+      <Counter1 />
+      <Counter2 />
     </div>
   );
 }
